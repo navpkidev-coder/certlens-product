@@ -47,10 +47,6 @@ Docker container
 Source code is not publicly distributed.
 
 📸 Screenshots
-Add demo screenshots here
-
-📬 Request a Demo
-For demos, training, or enterprise licensing:
 
 <img width="2525" height="967" alt="certlens_details" src="https://github.com/user-attachments/assets/674a1ae5-bbde-4f6a-afb0-fe27a023324b" />
 
@@ -58,6 +54,9 @@ For demos, training, or enterprise licensing:
 
 <img width="737" height="802" alt="certlens_pdf_report" src="https://github.com/user-attachments/assets/277e3ba8-9d9d-4f6c-bd22-617bdf424122" />
 
+
+📬 Request a Demo
+For demos, training, or enterprise licensing:
 
 📧 nav.pkidev@gmail.com
 
