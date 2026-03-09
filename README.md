@@ -1,64 +1,143 @@
-🛡 CertLens
-Certificate Trust Diagnostics for Enterprises
-CertLens is a security diagnostics tool that visually explains why a certificate or keystore fails — not just that it fails.
-Built for banks, fintechs, and messaging teams who work with TLS, PKI, and secure integrations.
+# 🛡 CertLens
+### Certificate Trust Diagnostics for Enterprises
 
-🚨 The Problem
-Most certificate outages are caused by:
-Missing intermediate certificates
-Wrong trust chains
-Expired or mis-signed certificates
-Existing tools (OpenSSL, keytool, browser errors) provide raw output but do not explain the root cause.
+CertLens is a **certificate intelligence and diagnostics tool** that visually explains **why a certificate or keystore fails — not just that it fails**.
 
-💡 The Solution
-CertLens rebuilds the full trust chain and clearly shows:
-Which certificate is missing
-Which parent is wrong
-Whether signatures match
-How risky the expiry is
-All in a visual, human-readable format.
+It is designed for teams working with **TLS, PKI, and secure integrations**, particularly in **banking, fintech, and enterprise messaging environments**.
 
-🔐 Security First
-CertLens runs inside your environment:
-On-prem
-Docker
-Offline
-No certificates or keys leave your network.
+---
 
-🧱 Core Capabilities
-PEM, CRT, DER, and JKS support
-Trust chain auto-discovery
-Missing / wrong CA detection
-Expiry risk scoring
-Visual trust chain UI
-Audit-ready PDF reports
+# 🚨 The Problem
 
-🎯 Who It’s For
-Banks & Fintechs
-SWIFT / Messaging integrators
-PKI & Security teams
-Compliance & Audit teams
-Training institutes
+Certificate outages often happen because of:
 
-📦 Deployment
-CertLens is delivered as:
-On-prem application
-Docker container
-Source code is not publicly distributed.
+- Missing intermediate certificates
+- Incorrect trust chains
+- Expired certificates
+- Mis-signed certificates
+- Incomplete keystore configurations
 
-📸 Screenshots
+Existing tools such as:
 
-<img width="2525" height="967" alt="certlens_details" src="https://github.com/user-attachments/assets/674a1ae5-bbde-4f6a-afb0-fe27a023324b" />
+- OpenSSL
+- keytool
+- Browser TLS errors
 
-<img width="670" height="785" alt="Certlens_lending" src="https://github.com/user-attachments/assets/5ca111b0-5ab8-428d-a63c-089cef000eda" />
+provide **raw cryptographic output**, but they rarely explain the **actual root cause of the failure**.
 
-<img width="737" height="802" alt="certlens_pdf_report" src="https://github.com/user-attachments/assets/277e3ba8-9d9d-4f6c-bd22-617bdf424122" />
+---
+
+# 💡 The CertLens Approach
+
+CertLens reconstructs the **entire trust chain** and provides a **clear visual explanation** of what is happening.
+
+It helps answer questions like:
+
+- Which certificate is missing?
+- Which CA should be the parent?
+- Does the signature chain match?
+- Is the certificate about to expire?
+- Is the trust path valid?
+
+All results are displayed in a **human-readable visual format**.
+
+---
+
+# 🔐 Security First
+
+CertLens is designed for **high-security environments**.
+
+It runs completely inside your infrastructure:
+
+- On-prem deployment
+- Docker container support
+- Offline operation supported
+
+**No certificates or private keys leave your network.**
+
+---
+
+# 🧱 Core Capabilities
+
+- PEM / CRT / DER certificate support
+- JKS and PKCS#12 keystore analysis
+- Automatic trust chain reconstruction
+- Detection of missing or incorrect intermediate CAs
+- Certificate expiry risk detection
+- Visual certificate chain representation
+- Certificate inventory overview
+- Audit-ready PDF reports
+
+---
+
+# 📸 Screenshots
+
+### CertLens Overview
+
+<img width="3840" height="3930" alt="certlens-home" src="https://github.com/user-attachments/assets/0f7462ec-669a-48c0-a826-cdb4dff2eadd" />
+
+---
+
+### Certificate Validation
+
+<img width="982" height="898" alt="certlens-validate-upload" src="https://github.com/user-attachments/assets/db5fa1e3-a38e-40e0-be0c-37e7bec45adb" />
+
+---
+
+### TLS Endpoint Analysis
+
+<img width="3840" height="3448" alt="certlens-tls-scan-results" src="https://github.com/user-attachments/assets/3e604a84-22da-460e-b147-d13b74cc8288" />
 
 
-📬 Request a Demo
-For demos, training, or enterprise licensing:
+---
 
-📧 nav.pkidev@gmail.com
+### Certificate Chain Visualization
 
-🏷 Topics
-pki tls certificates security banking docker
+<img width="3840" height="4428" alt="certlens-chain-analysis" src="https://github.com/user-attachments/assets/50e33295-1f55-4eef-a392-bea4cd4fa810" />
+
+
+---
+
+### Risk Detection
+
+<img width="3840" height="3488" alt="certlens-risk-detection" src="https://github.com/user-attachments/assets/933f2379-0416-4d09-b35d-29bba19d436d" />
+
+
+---
+
+# 🎯 Who Uses CertLens
+
+CertLens is built for teams working with **secure communications infrastructure**:
+
+- Banks and Fintech platforms
+- SWIFT and financial messaging integrators
+- PKI and security engineering teams
+- Compliance and audit teams
+- Training institutes teaching TLS / PKI
+
+---
+
+# 📦 Deployment
+
+CertLens can be deployed as:
+
+- On-prem application
+- Docker container
+
+Due to the **sensitive nature of certificate environments**, the source code is not publicly distributed.
+
+Enterprise deployment packages are available upon request.
+
+---
+
+# 📬 Request a Demo
+
+For demos, training sessions, or enterprise licensing:
+
+📧 **contact.navsatech@gmail.com**
+
+---
+
+# 🏷 Topics
+
+`pki` `tls` `certificates` `security` `banking` `docker` `cryptography`
