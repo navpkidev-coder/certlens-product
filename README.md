@@ -7,6 +7,16 @@ It is designed for teams working with **TLS, PKI, and secure integrations**, par
 
 ---
 
+## Key Features
+
+- 🔗 Certificate chain reconstruction
+- 🔐 Keystore analysis (JKS / PKCS#12)
+- 🌐 TLS endpoint inspection
+- ⚠️ Risk detection for expiry and weak algorithms
+- 📊 Certificate inventory overview
+- 📄 Audit-ready PDF reports
+
+  
 # 🚨 The Problem
 
 Certificate outages often happen because of:
@@ -57,6 +67,20 @@ It runs completely inside your infrastructure:
 
 ---
 
+## Architecture
+
+CertLens performs certificate diagnostics in three stages:
+
+1. **Certificate Parsing**
+   - Supports PEM, CRT, DER, JKS and PKCS#12 formats.
+
+2. **Trust Chain Reconstruction**
+   - Rebuilds certificate chains from root to leaf.
+
+3. **Risk Analysis**
+   - Detects expiry risks, broken trust paths, and misconfigured certificates.
+  
+
 # 🧱 Core Capabilities
 
 - PEM / CRT / DER certificate support
@@ -69,6 +93,7 @@ It runs completely inside your infrastructure:
 - Audit-ready PDF reports
 
 ---
+
 
 # 📸 Screenshots
 
